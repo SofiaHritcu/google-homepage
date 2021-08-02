@@ -128,12 +128,12 @@ input {
     justify-content: center;
     height: 55vh;
     min-height: 300px;
-    margin-top: 22px;
+    margin-top: 16px;
 }
 
 .logo-image {
     margin-bottom: 25px;
-    margin-right: 1px;
+    margin-right: 5px;
 }
 
 .search {
@@ -236,7 +236,7 @@ input {
 }
 
 .languages > p {
-    margin-top: 32px;
+    margin-top: 26px;
     font-size: 13px;
 }
 
