@@ -142,7 +142,7 @@ input {
     justify-content: space-between;
     width: 580px;
     height: 45px;
-    padding: 10px;
+    padding: 0.7vw;
     border: 1px solid #ddd;
     border-radius: 30px;
 }
@@ -154,7 +154,7 @@ input {
 
 .input-search {
     height: 110%;
-    padding: 12px;
+    padding: 0.5vw;
 }
 
 .icon-search {
@@ -299,14 +299,55 @@ input {
         width: 95%;
       }
   
-      .footer-country {
-          font-size: 15px;
-          bottom: 127px;
-      }
-  
-      .footer-links {
-          font-size: 14px;
-      }
+    .footer-country {
+        font-size: 15px;
+        bottom: 127px;
+    }
+
+    .footer-links {
+        font-size: 14px;
+    }
+
+    .main {
+    padding-top: 10vw;
+    }   
+
+    .search {
+        width: fit-content;
+        height: 11%;
+    }
+
+    .logo-image {
+        width:20vw;
+        margin-bottom: 1vw;
+    }
+
+    .languages > p {
+        font-size: 10px;
+    }
+
+    /* .icon-keyboard {
+        height: 50%;
+    } */
+
+    .icon-microphone {
+        height: 15px;
+        width: 15px;
+    }
+
+    .icon-search {
+        font-size: 12 !important;
+    }
+
+    .icon-keyboard {
+        font-size: 10 !important;
+    }
+
+    .action-button {
+        font-size: 9px !important;
+        margin-top: 15px;
+    }
+
  }
 
 @media (min-width: 576px) and (max-width: 767.98px) {  
@@ -314,20 +355,95 @@ input {
         width: 95%;
       }
   
-      .footer-country {
-          font-size: 15px;
-          bottom: 127px;
-      }
-  
-      .footer-links {
-          font-size: 14px;
-      }
+    .footer-country {
+        font-size: 15px;
+        bottom: 127px;
+    }
+
+    .footer-links {
+        font-size: 14px;
+    }
+
+    .main {
+    padding-top: 10vw;
+    }
+
+    .search {
+        width: fit-content;
+        height: 12%;
+    }
+
+    .logo-image {
+        width:20vw;
+        margin-bottom: 1vw;
+    }
+
+    .languages > p {
+        font-size: 10px;
+    }
+
+    .icon-microphone {
+        height: 18px;
+        width: 18px;
+    }
+
+    .icon-search {
+        font-size: 14 !important;
+    }
+
+    .icon-keyboard {
+        font-size: 11 !important;
+    }
+
+    .action-button {
+        font-size: 10px !important;
+        margin-top: 17px;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 914.98px) { 
     .footer-country {
         bottom: 107px;
     }
+
+    .main {
+        padding-top: 10vw;
+    }
+
+    .search {
+        width: 50%;
+        height: 13%;
+    }
+
+    .logo-image {
+        width:20vw;
+        margin-bottom: 1vw;
+    }
+
+    .languages > p {
+        font-size: 10px;
+    }
+
+    .icon-microphone {
+        height: 20px;
+        width: 20px;
+    }
+
+    .icon-search {
+        font-size: 16 !important;
+    }
+
+    .icon-keyboard {
+        font-size: 12 !important;
+    }
+
+    .action-button {
+        font-size: 11px !important;
+        margin-top: 20px;
+    }
+
+    
   }
 
 
@@ -335,6 +451,43 @@ input {
     .footer-country {
         bottom: 70px;
     }
+
+    .main {
+        padding-top: 10vw;
+    }
+
+    .search {
+        width: 55%;
+        height: 15%;
+    }
+
+    .logo-image {
+        width:20vw;
+        margin-bottom: 1vw;
+    }
+
+    .languages > p {
+        font-size: 11px;
+    }
+
+    .icon-microphone {
+        height: 22px;
+        width: 22px;
+    }
+
+    .icon-search {
+        font-size: 18 !important;
+    }
+
+    .icon-keyboard {
+        font-size: 13 !important;
+    }
+
+    .action-button {
+        font-size: 12px !important;
+        margin-top: 25px;
+    }
+
   }
  
 
@@ -342,6 +495,45 @@ input {
     .footer-country {
         bottom: 87px;
     }
+
+    .main {
+        padding-top: 8vw;
+    }
+
+    .search {
+        width: 60%;
+        height: 15%;
+    }
+
+    .logo-image {
+        width:23vw;
+        margin-bottom: 2vw;
+    }
+
+    .languages > p {
+        font-size: 13px;
+    }
+
+    .icon-microphone {
+        height: 24px;
+        width: 24px;
+    }
+
+    .icon-search {
+        font-size: 19 !important;
+    }
+
+    .icon-keyboard {
+        font-size: 15 !important;
+    }
+
+    .action-button {
+        font-size: 14px !important;
+        margin-top: 29px;
+    }
+    
   }
 
-@media (min-width: 1200px) {  }
+@media (min-width: 1200px) { 
+
+ }
