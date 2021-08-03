@@ -128,12 +128,12 @@ input {
     justify-content: center;
     height: 55vh;
     min-height: 300px;
-    margin-top: 16px;
+    margin-top: 17px;
 }
 
 .logo-image {
-    margin-bottom: 25px;
-    margin-right: 5px;
+    margin-bottom: 26px;
+    /* margin-right: 1px; */
 }
 
 .search {
@@ -194,7 +194,7 @@ input {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    gap: 17px;
+    gap: 18px;
 }
 
 .btn:focus, .btn:active, .btn.focus{
@@ -236,7 +236,7 @@ input {
 }
 
 .languages > p {
-    margin-top: 26px;
+    margin-top: 27px;
     font-size: 13px;
 }
 
@@ -297,3 +297,5 @@ input {
 .footer-link:hover {
     text-decoration: underline;
 }
+
+
