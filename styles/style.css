@@ -250,15 +250,11 @@ input {
     bottom: 0;
     left: 0;
     right: 0;
-    /* display: flex;
-    align-items: center;
-    justify-content: space-between; */
-    /* width: 100%; */
-    display: flex;
-    /* height: 46px; */
+    /* display: flex; */
     padding: 4px;
+    padding-right: 0;
+    padding-left: 0;
     padding-top: 2px;
-    /* margin-bottom: 3px; */
     border-top: 1px solid #dadce0;
     background: #f2f2f2;
     color: #70757a;
@@ -271,8 +267,8 @@ input {
     left: 0;
     right: 0;
     width: 100%;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding-left: 0;
+    padding-right: 0;
     padding-top: 3px;
     padding-bottom: 3px;
     background: #f2f2f2;
@@ -284,6 +280,12 @@ input {
 .footer-link, .footer-link:hover, .footer-link:active {
     color: #70757a;
     display: block;
+    padding: 10px 0 10px 0;
+}
+
+.footer-link-padding, .footer-link-padding:hover, .footer-link-padding:active {
+    color: #70757a;
+    display: block;
     padding: 10px 0 10px 30px;
 }
 
@@ -291,6 +293,51 @@ input {
     text-decoration: underline;
 }
 
+.footer-links > .row {
+    margin-right: 0;
+    margin-left: 0;
+    width: 100%;
+    padding: 0;
+}
+
+
+
+.confidentiality {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 0;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.about {
+    padding-left: 5px !important;
+    padding-right: 0 !important;
+}
+
+.no-padding-left-right {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+/* .footer-links > .row >  .settings > a{
+    margin-right: 9px;
+}
+.footer-links > .row >  .about > a{
+    padding-left: 0;
+} */
+
+
+
+/* .footer-links > .row >  .publicity {
+    margin-left: 0px;
+}
+
+.footer-links > .row >  .publicity > a {
+    padding-left: 0;
+} */
 
 /* --------------------------------- media queries ----------------------------------- */
 
@@ -348,6 +395,33 @@ input {
         margin-top: 15px;
     }
 
+    .how-works {
+        padding-left: 150px !important;
+    }
+
+
+    .nav {
+        font-size: 9px;
+    }
+
+    .apps-button {
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+    }
+
+    .apps-button > img {
+        opacity: 0.7;
+        width:  10px;
+        height: 10px;
+    }
+
+    .user-avatar {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+
  }
 
 @media (min-width: 576px) and (max-width: 767.98px) {  
@@ -400,11 +474,37 @@ input {
         margin-top: 17px;
     }
 
+    .how-works {
+        padding-left: 250px !important;
+    }
+
+    .nav {
+        font-size: 9px;
+    }
+
+    .apps-button {
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+    }
+
+    .apps-button > img {
+        opacity: 0.7;
+        width:  12px;
+        height: 12px;
+    }
+
+    .user-avatar {
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+    }
+
 }
 
 @media (min-width: 768px) and (max-width: 914.98px) { 
     .footer-country {
-        bottom: 107px;
+        bottom: 87px;
     }
 
     .main {
@@ -443,13 +543,34 @@ input {
         margin-top: 20px;
     }
 
+    .nav {
+        font-size: 10px;
+    }
+
+    .apps-button {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+
+    .apps-button > img {
+        opacity: 0.7;
+        width:  14px;
+        height: 14px;
+    }
+
+    .user-avatar {
+        width: 24px;
+        height: 24px;
+        border-radius: 50%;
+    }
     
   }
 
 
   @media (min-width: 915px) and (max-width: 991.98px) { 
     .footer-country {
-        bottom: 70px;
+        bottom: 87px;
     }
 
     .main {
@@ -488,12 +609,21 @@ input {
         margin-top: 25px;
     }
 
+    .nav {
+        font-size: 11px;
+    }
+
+    .user-avatar {
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+    }
   }
  
 
 @media (min-width: 992px) and (max-width: 1199.98px) { 
     .footer-country {
-        bottom: 87px;
+        bottom: 67px;
     }
 
     .main {
@@ -530,6 +660,11 @@ input {
     .action-button {
         font-size: 14px !important;
         margin-top: 29px;
+    }
+
+    .user-avatar {
+        width: 30px;
+        height: 30px;
     }
     
   }
